@@ -16,22 +16,22 @@
 </form>
 <h2>{{kekka}}</h2>
 <!-- <div class="container"> -->
-    <!-- <div class="row">
+<!-- <div class="row">
         <div class="col-19 col-sm-9"> -->
-    <table>
-        <tr>
-            <th class="1" width="700" height="10">商品名</th>
-            <th class="2" width="200" height="10">価格</th>
-            <th class="3" width="100" height="10">URL</th>
-        </tr>
-        {% for detum in data_rakuten %}
-        <tr>
-            <td width="700" height="10">{{detum.0}}</td>
-            <td width="200" height="20">{{detum.1}}</td>
-            <td width="100" height="10"><a href= {{detum.2}}>リンク</a></td>
-        </tr>
-        {% endfor %}
-    </table>
+<table>
+    <tr>
+        <th class="1" width="700" height="10">商品名</th>
+        <th class="2" width="200" height="10">価格</th>
+        <th class="3" width="100" height="10">URL</th>
+    </tr>
+    {% for detum in data_rakuten %}
+    <tr>
+        <td width="700" height="10">{{detum.0}}</td>
+        <td width="200" height="20">{{detum.1}}</td>
+        <td width="100" height="10"><a href={{detum.2}}>リンク</a></td>
+    </tr>
+    {% endfor %}
+</table>
 <!-- </div> -->
 
 <!-- </div>
