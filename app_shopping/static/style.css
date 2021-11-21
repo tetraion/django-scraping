@@ -4,9 +4,7 @@ table {
     width: 100%;
 }
  
-tr:nth-child(odd) {
-    background-color:  #ddd;    /* 背景色指定 */
-}
+
  
 th {
     padding: 5px 10px;          /* 余白指定 */
